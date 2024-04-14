@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            margin: 80px 0px 40px;
+            
+            
+        }
+        .divsign{
+            
+            
+            padding: 0px 400px;
+            
+        }
+        svg{
+            width: 144px;
+            height: 46px;
+            margin-left: 30%;
+            margin: 30px 30%;
+        }
+        section{
+            width: 450px;
+            height: 90vh;
+            border-radius: 10px;
+            
+            margin-bottom: 50px;
+            background-color: white;
+            box-shadow: 1px 1px 30px 10px lightgray;
+            padding: 0px 40px;
+           
+          
+        }
+        section img{
+            height: 180px;
+            width: 180px;
+            border-radius: 50%;
+            margin-left: 30%;
+        }
+        form input{
+            width: 100%;
+            padding: 8px 0px;
+            margin: 10px 0px;
+        }
+        form label{
+            display: inline-block;
+            margin: 10px 0px;
+            font-weight: bolder;
+
+        }
+        .show-btn{
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            position: relative;
+            bottom: 41px;
+            left: 83%;
+            background-color: transparent;
+
+        }
+        .show-btn:hover{
+            background-color: aliceblue;
+            cursor: pointer;
+        }
+        .signin{
+            width: 100%;
+            padding: 10px 0px;
+            border-radius: 10px;
+            border: none;
+        }
+        .signin:hover{
+            opacity: 1;
+            cursor: pointer;
+            
+
+        }
+        .createAC{
+            margin: 40px 0px;
+            display: block;
+            text-align: center;
+
+        }
+        .forgotpw{
+            margin-left: 50%;
+        }
+        a:active,a:link,a:visited{
+            color: black;
+        }
+
+
+    </style>
+    
+</head>
+<body>
+
+    <div class="divsign">
+        <header><svg viewBox="0 0 780 250" aria-hidden="true"><path fill="#231F20" d="M240,250h100v-50h100V0H240V250z M340,50h50v100h-50V50z M480,0v200h100V50h50v150h50V50h50v150h50V0H480z M0,200h100V50h50v150h50V0H0V200z"></path></svg></header>
+        <section>
+            <img src="https://static-production.npmjs.com/c9e19250d48d66f0e9c70c9b3991bbdb.png" alt="">
+            <h1>Sign in</h1>
+            <form action="">
+                <label for="">Username</label>
+                <input type="text">
+                <label for="">Password</label> <a class="forgotpw" href="">Forgotpassword?</a>
+                <input type="text"> <button class="show-btn">Show</button>
+                <button class="signin">Sign In</button>
+                <a class="createAC" href="">Create Account</a>
+            </form>
+        </section>
+
+    </div>
+    
+</body>
+</html>
